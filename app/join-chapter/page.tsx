@@ -100,15 +100,15 @@ export default function JoinChapterPage() {
                 fillOpacity: 0.9
               }).addTo(map)
 
-              marker.on('mouseover', function () {
-                this.setStyle({
+              marker.on('mouseover', () => {
+                marker.setStyle({
                   radius: 16,
                   fillOpacity: 1
                 })
               })
 
-              marker.on('mouseout', function () {
-                this.setStyle({
+              marker.on('mouseout', () => {
+                marker.setStyle({
                   radius: 12,
                   fillOpacity: 0.9
                 })
