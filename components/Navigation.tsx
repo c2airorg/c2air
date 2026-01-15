@@ -20,7 +20,7 @@ export default function Navigation() {
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
-      if (libraryRef.current && !libraryRef.current.contains(event.target as Node)) {
+      if (libraryRef.current && window.innerWidth >= 1024 && !libraryRef.current.contains(event.target as Node)) {
         setIsLibraryOpen(false)
       }
     }
@@ -33,8 +33,8 @@ export default function Navigation() {
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
-        ? 'bg-slate-800/95 backdrop-blur-xl border-b border-slate-700/50 shadow-lg'
-        : 'bg-slate-800/95 backdrop-blur-xl'
+      ? 'bg-slate-800/95 backdrop-blur-xl border-b border-slate-700/50 shadow-lg'
+      : 'bg-slate-800/95 backdrop-blur-xl'
       }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20 md:h-24">
@@ -96,8 +96,8 @@ export default function Navigation() {
               <button
                 onClick={() => setIsLibraryOpen(!isLibraryOpen)}
                 className={`relative flex items-center gap-1.5 px-4 py-2 text-base font-medium transition-all rounded-lg ${isLibraryOpen
-                    ? 'bg-slate-800 text-white'
-                    : 'text-gray-300 hover:text-white hover:bg-slate-800/50'
+                  ? 'bg-slate-800 text-white'
+                  : 'text-gray-300 hover:text-white hover:bg-slate-800/50'
                   }`}
               >
                 <span>Library</span>
@@ -152,9 +152,9 @@ export default function Navigation() {
           </div>
         </div>
       </div>
-      <div className={`lg:hidden transition-all duration-300 overflow-hidden ${isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
+      <div className={`lg:hidden transition-all duration-300 ${isOpen ? 'max-h-screen opacity-100 overflow-visible' : 'max-h-0 opacity-0 overflow-hidden'
         }`}>
-        <div className="px-4 pb-6 pt-2 bg-slate-900/98 backdrop-blur-xl border-t border-slate-800/50">
+        <div className="px-4 pb-6 pt-2 bg-slate-900/98 backdrop-blur-xl border-t border-slate-800/50 relative z-50">
           <div className="space-y-1">
             <Link
               href="/"
@@ -191,9 +191,12 @@ export default function Navigation() {
             >
               Contact
             </Link>
-            <div className="pt-2">
+            <div className="pt-2 relative z-10">
               <button
-                onClick={() => setIsLibraryOpen(!isLibraryOpen)}
+                onClick={(e) => {
+                  e.stopPropagation()
+                  setIsLibraryOpen(!isLibraryOpen)
+                }}
                 className="w-full flex items-center justify-between px-4 py-3 text-gray-300 hover:text-white hover:bg-slate-800/50 rounded-lg text-lg font-medium transition-colors"
               >
                 <span>Library</span>
@@ -208,11 +211,12 @@ export default function Navigation() {
               </button>
 
               {isLibraryOpen && (
-                <div className="mt-1 ml-4 space-y-1">
+                <div className="mt-1 ml-4 space-y-1 relative z-20">
                   <Link
                     href="/resources"
-                    className="block px-4 py-2.5 text-gray-400 hover:text-white hover:bg-slate-800/50 rounded-lg text-base font-medium transition-colors"
-                    onClick={() => {
+                    className="block px-4 py-2.5 text-gray-400 hover:text-white hover:bg-slate-800/50 rounded-lg text-base font-medium transition-colors cursor-pointer"
+                    onClick={(e) => {
+                      e.stopPropagation()
                       setIsOpen(false)
                       setIsLibraryOpen(false)
                     }}
@@ -221,8 +225,9 @@ export default function Navigation() {
                   </Link>
                   <Link
                     href="/blog"
-                    className="block px-4 py-2.5 text-gray-400 hover:text-white hover:bg-slate-800/50 rounded-lg text-base font-medium transition-colors"
-                    onClick={() => {
+                    className="block px-4 py-2.5 text-gray-400 hover:text-white hover:bg-slate-800/50 rounded-lg text-base font-medium transition-colors cursor-pointer"
+                    onClick={(e) => {
+                      e.stopPropagation()
                       setIsOpen(false)
                       setIsLibraryOpen(false)
                     }}
