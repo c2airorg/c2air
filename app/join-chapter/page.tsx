@@ -9,7 +9,7 @@ interface Chapter {
   location: string
   city: string
   members: number
-  lead: string
+  lead?: string
   coLead?: string
   status?: 'active' | 'starting-soon'
   formLink: string
