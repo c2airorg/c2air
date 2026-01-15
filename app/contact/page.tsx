@@ -214,7 +214,7 @@ export default function Contact() {
                                         </svg>
                                     </a>
                                     <a
-                                        href="https://t.me/c2airorg"
+                                        href="https://t.me/+RoIQt45kqH0yMDVl"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="w-14 h-14 rounded-lg flex items-center justify-center hover:scale-110 transition-transform shadow-lg hover:shadow-xl"

@@ -50,7 +50,7 @@ export default function JoinCommunityPage() {
                             </div>
                         </a>
                         <a
-                            href="https://t.me/c2airorg"
+                            href="https://t.me/+RoIQt45kqH0yMDVl"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="group relative bg-gradient-to-br from-blue-500/10 to-blue-600/5 border-2 border-blue-500/30 rounded-2xl p-8 hover:border-blue-500/60 hover:bg-blue-500/15 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-blue-500/20"

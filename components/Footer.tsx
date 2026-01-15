@@ -264,7 +264,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://t.me/c2airorg"
+                href="https://t.me/+RoIQt45kqH0yMDVl"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-c2air-accent transition-colors"
