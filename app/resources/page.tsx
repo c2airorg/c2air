@@ -24,7 +24,7 @@ export default function ResourcesPage() {
       category: 'ai',
       type: 'pdf',
       description: 'A comprehensive collection of 100 AI project ideas to help you build practical skills and enhance your portfolio.',
-      downloadLink: '/resources/pdf/100 AI Projects for 2026.docx',
+      downloadLink: '/resources/pdf/100 AI Projects for 2026.pdf',
       size: 'PDF'
     },
     {
@@ -33,7 +33,7 @@ export default function ResourcesPage() {
       category: 'ai',
       type: 'pdf',
       description: 'Curated collection of powerful AI prompts designed to boost productivity and transform your workflow.',
-      downloadLink: '/resources/pdf/100+AI prompts to transform your work.docx',
+      downloadLink: '/resources/pdf/100+AI prompts to transform your work.pdf',
       size: 'PDF'
     },
     {
@@ -42,7 +42,7 @@ export default function ResourcesPage() {
       category: 'cybersecurity',
       type: 'pdf',
       description: 'Essential shell commands and quick reference guide for cybersecurity professionals and incident responders.',
-      downloadLink: '/resources/pdf/First Responder Shell Cheatsheet .docx',
+      downloadLink: '/resources/pdf/First Responder Shell Cheatsheet .pdf',
       size: 'PDF'
     },
     {
@@ -51,7 +51,7 @@ export default function ResourcesPage() {
       category: 'ai',
       type: 'pdf',
       description: 'Complete guide to Python essentials for AI and Machine Learning, covering the latest tools and best practices for 2026.',
-      downloadLink: '/resources/pdf/Python AI ML Essentials 2026.docx',
+      downloadLink: '/resources/pdf/Python AI ML Essentials 2026.pdf',
       size: 'PDF'
     }
   ]
