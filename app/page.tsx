@@ -312,7 +312,7 @@ export default function Home() {
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
             {[
               { month: "January", activity: "C2AIR Community Launch", subtitle: "Community Launch · Offline" },
-              { month: "February", activity: "AI Innovation Challenge", subtitle: "AI Hackathon" },
+              { month: "February", activity: "AI Innovation Challenge", subtitle: "AI Ideathon" },
               { month: "March", activity: "Summer of Intelligence", subtitle: "Mathematics for AI" },
               { month: "April", activity: "AI for Young Minds", subtitle: "School Outreach Program" },
               { month: "May", activity: "Campus Connect", subtitle: "College Meetup · Kanpur" },
