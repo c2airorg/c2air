@@ -576,9 +576,83 @@ export default function AboutPage() {
                                 </div>
                             )}
                             {activePeopleTab === 'team' && (
-                                <div className="text-center py-12">
-                                    <p className="text-gray-400 text-lg">Team members information will be added soon.</p>
-                                </div>
+                               <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 lg:gap-12">
+                                    <div className="flex flex-col items-center text-center h-full">
+                                        <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 bg-slate-800 ring-4 ring-slate-700 relative">
+                                            <Image
+                                                src="/team/team_members/Anshika_Pandey.jpeg"
+                                                alt="Anshika Pandey"
+                                                width={160}
+                                                height={160}
+                                                className="absolute inset-0 w-full h-full object-cover"
+                                                style={{ objectPosition: 'center top' }}
+                                            />
+                                        </div>
+                                        <h5 className="text-2xl font-bold text-white mb-2">Anshika Pandey</h5>
+                                    
+                                       
+                                    </div>
+                                    <div className="flex flex-col items-center text-center h-full">
+                                        <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 bg-slate-800 ring-4 ring-slate-700 relative">
+                                            <Image
+                                                src="/team/team_members/Shruti_Prajapati.jpeg"
+                                                alt="Shruti Prajapati"
+                                                width={160}
+                                                height={160}
+                                                className="absolute inset-0 w-full h-full object-cover"
+                                                style={{ objectPosition: 'center top' }}
+                                            />
+                                        </div>
+                                        <h5 className="text-2xl font-bold text-white mb-2">Shruti Prajapati</h5>
+                                    
+                                       
+                                    </div>
+                                         <div className="flex flex-col items-center text-center h-full">
+                                        <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 bg-slate-800 ring-4 ring-slate-700 relative">
+                                            <Image
+                                                src="/team/team_members/divyanshu_singh.jpeg"
+                                                alt="Divyanshu Singh"
+                                                width={160}
+                                                height={160}
+                                                className="absolute inset-0 w-full h-full object-cover"
+                                                style={{ objectPosition: 'center top' }}
+                                            />
+                                        </div>
+                                        <h5 className="text-2xl font-bold text-white mb-2">Divyanshu Singh</h5>
+                                    
+                                       
+                                    </div>
+                                         <div className="flex flex-col items-center text-center h-full">
+                                        <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 bg-slate-800 ring-4 ring-slate-700 relative">
+                                            <Image
+                                                src="/team/team_members/jeetu_singh.jpeg"
+                                                alt="Jeetu Singh"
+                                                width={160}
+                                                height={160}
+                                                className="absolute inset-0 w-full h-full object-cover"
+                                                style={{ objectPosition: 'center top' }}
+                                            />
+                                        </div>
+                                        <h5 className="text-2xl font-bold text-white mb-2">Jeetu Singh</h5>
+                                    
+                                       
+                                    </div>
+                                         <div className="flex flex-col items-center text-center h-full">
+                                        <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 bg-slate-800 ring-4 ring-slate-700 relative">
+                                            <Image
+                                                src="/team/team_members/Aryan_singh.jpeg"
+                                                alt="Aryan Singh"
+                                                width={160}
+                                                height={160}
+                                                className="absolute inset-0 w-full h-full object-cover"
+                                                style={{ objectPosition: 'center top' }}
+                                            />
+                                        </div>
+                                        <h5 className="text-2xl font-bold text-white mb-2">Aryan Singh</h5>
+                                    
+                                       
+                                    </div>
+                                    </div>
                             )}
                             {activePeopleTab === 'chapter-leads' && (
                                 <div className="text-center py-12">
