@@ -626,7 +626,7 @@ export default function AboutPage() {
                                      <div className="flex flex-col items-center text-center h-full">
                                         <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 bg-slate-800 ring-4 ring-slate-700 relative">
                                             <Image
-                                                src="/team/team_members/Anshita_singh.jpeg"
+                                                src="/team/team_members/Anshita_Singh.jpeg"
                                                 alt="Anshita Singh"
                                                 width={160}
                                                 height={160}
