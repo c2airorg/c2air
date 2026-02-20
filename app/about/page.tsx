@@ -592,6 +592,21 @@ export default function AboutPage() {
                                     
                                        
                                     </div>
+                                     <div className="flex flex-col items-center text-center h-full">
+                                        <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 bg-slate-800 ring-4 ring-slate-700 relative">
+                                            <Image
+                                                src="/team/team_members/divyanshu_singh.jpeg"
+                                                alt="Divyanshu Singh"
+                                                width={160}
+                                                height={160}
+                                                className="absolute inset-0 w-full h-full object-cover"
+                                                style={{ objectPosition: 'center top' }}
+                                            />
+                                        </div>
+                                        <h5 className="text-2xl font-bold text-white mb-2">Divyanshu Singh</h5>
+                                    
+                                       
+                                    </div>
                                     <div className="flex flex-col items-center text-center h-full">
                                         <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 bg-slate-800 ring-4 ring-slate-700 relative">
                                             <Image
@@ -607,36 +622,70 @@ export default function AboutPage() {
                                     
                                        
                                     </div>
-                                         <div className="flex flex-col items-center text-center h-full">
+                                        
+                                     <div className="flex flex-col items-center text-center h-full">
                                         <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 bg-slate-800 ring-4 ring-slate-700 relative">
                                             <Image
-                                                src="/team/team_members/divyanshu_singh.jpeg"
-                                                alt="Divyanshu Singh"
-                                                width={160}
-                                                height={160}
-                                                className="absolute inset-0 w-full h-full object-cover"
-                                                style={{ objectPosition: 'center top' }}
-                                            />
-                                        </div>
-                                        <h5 className="text-2xl font-bold text-white mb-2">Divyanshu Singh</h5>
-                                    
-                                       
-                                    </div>
-                                         <div className="flex flex-col items-center text-center h-full">
-                                        <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 bg-slate-800 ring-4 ring-slate-700 relative">
-                                            <Image
-                                                src="/team/team_members/jeetu_singh.jpeg"
-                                                alt="Jeetu Singh"
+                                                src="/team/team_members/Anshita_singh.jpeg"
+                                                alt="Anshita Singh"
                                                 width={160}
                                                 height={160}
                                                 className="absolute inset-0 w-full h-full object-cover"
                                                 style={{ objectPosition: 'center center' }}
                                             />
                                         </div>
-                                        <h5 className="text-2xl font-bold text-white mb-2">Jeetu Singh</h5>
+                                        <h5 className="text-2xl font-bold text-white mb-2">Anshita Singh</h5>
                                     
                                        
                                     </div>
+                                    <div className="flex flex-col items-center text-center h-full">
+                                        <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 bg-slate-800 ring-4 ring-slate-700 relative">
+                                            <Image
+                                                src="/team/team_members/shivendra_kushwaha.jpeg"
+                                                alt="Shivendra Kushwaha"
+                                                width={160}
+                                                height={160}
+                                                className="absolute inset-0 w-full h-full object-cover"
+                                                style={{ objectPosition: 'center center' }}
+                                            />
+                                        </div>
+                                        <h5 className="text-2xl font-bold text-white mb-2">Shivendra Kushwaha</h5>
+                                    
+                                       
+                                    </div>
+                                        
+                                    <div className="flex flex-col items-center text-center h-full">
+                                        <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 bg-slate-800 ring-4 ring-slate-700 relative">
+                                            <Image
+                                                src="/team/team_members/Ishita_Shukla.jpeg"
+                                                alt="Ishita Shukla"
+                                                width={160}
+                                                height={160}
+                                                className="absolute inset-0 w-full h-full object-cover"
+                                                style={{ objectPosition: 'center center' }}
+                                            />
+                                        </div>
+                                        <h5 className="text-2xl font-bold text-white mb-2">Ishita Shukla</h5>
+                                    
+                                       
+                                    </div>
+                                    
+                                    <div className="flex flex-col items-center text-center h-full">
+                                        <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 bg-slate-800 ring-4 ring-slate-700 relative">
+                                            <Image
+                                                src="/team/team_members/Rishita_Singh.jpeg"
+                                                alt="Rishita Singh"
+                                                width={160}
+                                                height={160}
+                                                className="absolute inset-0 w-full h-full object-cover"
+                                                style={{ objectPosition: 'center center' }}
+                                            />
+                                        </div>
+                                        <h5 className="text-2xl font-bold text-white mb-2">Rishita Singh</h5>
+                                    
+                                       
+                                    </div>
+                                    
                                          <div className="flex flex-col items-center text-center h-full">
                                         <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 bg-slate-800 ring-4 ring-slate-700 relative">
                                             <Image
@@ -652,6 +701,38 @@ export default function AboutPage() {
                                     
                                        
                                     </div>
+                                     <div className="flex flex-col items-center text-center h-full">
+                                        <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 bg-slate-800 ring-4 ring-slate-700 relative">
+                                            <Image
+                                                src="/team/team_members/Ananya_Chauhan.jpeg"
+                                                alt="Ananya Chauhan"
+                                                width={160}
+                                                height={160}
+                                                className="absolute inset-0 w-full h-full object-cover"
+                                                style={{ objectPosition: 'center center' }}
+                                            />
+                                        </div>
+                                        <h5 className="text-2xl font-bold text-white mb-2">Ananya Chauhan</h5>
+                                    
+                                       
+                                    </div>
+                                     
+                                     <div className="flex flex-col items-center text-center h-full">
+                                        <div className="w-40 h-40 rounded-lg overflow-hidden mb-6 bg-slate-800 ring-4 ring-slate-700 relative">
+                                            <Image
+                                                src="/team/team_members/jeetu_singh.jpeg"
+                                                alt="Jeetu Singh"
+                                                width={160}
+                                                height={160}
+                                                className="absolute inset-0 w-full h-full object-cover"
+                                                style={{ objectPosition: 'center center' }}
+                                            />
+                                        </div>
+                                        <h5 className="text-2xl font-bold text-white mb-2">Jeetu Singh</h5>
+                                    
+                                       
+                                    </div>
+                                    
                                     </div>
                             )}
                             {activePeopleTab === 'chapter-leads' && (
