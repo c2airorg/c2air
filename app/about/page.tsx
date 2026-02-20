@@ -585,7 +585,7 @@ export default function AboutPage() {
                                                 width={160}
                                                 height={160}
                                                 className="absolute inset-0 w-full h-full object-cover"
-                                                style={{ objectPosition: 'center top' }}
+                                                style={{ objectPosition: 'center center' }}
                                             />
                                         </div>
                                         <h5 className="text-2xl font-bold text-white mb-2">Anshika Pandey</h5>
@@ -630,7 +630,7 @@ export default function AboutPage() {
                                                 width={160}
                                                 height={160}
                                                 className="absolute inset-0 w-full h-full object-cover"
-                                                style={{ objectPosition: 'center top' }}
+                                                style={{ objectPosition: 'center center' }}
                                             />
                                         </div>
                                         <h5 className="text-2xl font-bold text-white mb-2">Jeetu Singh</h5>
@@ -645,7 +645,7 @@ export default function AboutPage() {
                                                 width={160}
                                                 height={160}
                                                 className="absolute inset-0 w-full h-full object-cover"
-                                                style={{ objectPosition: 'center top' }}
+                                                style={{ objectPosition: 'center center' }}
                                             />
                                         </div>
                                         <h5 className="text-2xl font-bold text-white mb-2">Aryan Singh</h5>
